@@ -278,7 +278,7 @@ a {
   top: 0;
   border-bottom: 1px solid #e5e7eb;
   margin-bottom: 0.2rem;
-  background: #fff;
+  background: red;
   z-index: 10; }
   .main-container .navbar-secondary h2 {
     font-size: 1.125rem;
