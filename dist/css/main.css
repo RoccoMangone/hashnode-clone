@@ -764,3 +764,13 @@ article {
       font-size: 1rem; }
     .features .card-container .card p {
       display: none; } }
+
+
+
+      #TopPicture
+      {
+        max-width: 300%;
+        height: auto;
+      }
+      
+      
