@@ -170,8 +170,7 @@ body {
 .white {
   color: white; }
 
-img {
-  width: 40px; }
+
 
 ul {
   list-style: none; }
@@ -267,7 +266,11 @@ a {
     .flex-end a img {
       width: 35px;
       height: 35px; }
-
+	  
+.topimage{
+	width: 500px;
+	height: 500px;
+}
 .main-container .navbar-secondary {
   display: flex;
   align-items: center;
