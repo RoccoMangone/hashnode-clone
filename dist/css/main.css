@@ -50,23 +50,27 @@ section {
   text-align: center; }
   .header-text h1 {
     max-width: 900px;
-    margin: 0 auto 1rem; }
+    margin: 0 auto 1rem; 
+    line-height: 3rem;}
   .header-text p {
     font-size: 1.3rem;
     max-width: 400px;
     margin-bottom: 2rem;
-    color: #757575; }
+    color: #757575; 
+    line-height: 3rem; }
 
 .header-text-2 h2 {
   font-size: 2rem;
   color: #333333;
-  font-weight: 600; }
+  font-weight: 600; 
+  line-height: 3rem; }
 
 .header-text-2 p {
   color: #757575;
   font-size: 1.5rem;
   font-weight: 500;
-  max-width: 600px; }
+  max-width: 600px; 
+  line-height: 3rem;}
 
 #logo a {
   display: flex;
@@ -75,7 +79,7 @@ section {
 .header-text h1 {
   font-size: 3rem;
   letter-spacing: -0.15rem;
-  line-height: 1.2;
+  line-height: 6rem;
   color: #212121;
   margin-bottom: 1rem; }
 
@@ -84,9 +88,9 @@ section {
   font-size: 2.25rem;
   font-weight: 600;
   text-align: center;
-  line-height: 2.8rem;
   margin: 2rem auto;
-  max-width: 600px; }
+  max-width: 600px; 
+  line-height: 5rem;}
 
 .card-container {
   display: grid;
@@ -111,7 +115,8 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 4rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem; 
+  }
   .card-container-two .card {
     display: flex;
     flex-direction: column;
@@ -120,16 +125,20 @@ section {
     .card-container-two .card h2 {
       font-size: 2.2rem;
       color: #333333;
-      margin-bottom: 0.6rem; }
+      margin-bottom: 0.6rem; 
+      letter-spacing: .2;  }
     .card-container-two .card p {
-      font-size: 1.125rem; }
+      line-height: 3rem;
+      font-size: 1.125rem;
+      letter-spacing: .2; }
   .card-container-two img {
     width: 100%;
     width: calc(100% + 40px); }
 
 @media (max-width: 1025px) {
   .header-text h1 {
-    font-size: 2.25rem; }
+    font-size: 2.25rem; 
+    line-height: 3rem;}
   .card-container {
     grid-template-columns: repeat(1, 1fr); }
   .card-container-one {
@@ -178,7 +187,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: #212121; }
+  color: #212121; 
+  line-height: 3rem; }
 
 #container {
   display: grid;
@@ -278,11 +288,11 @@ a {
   top: 0;
   border-bottom: 1px solid #e5e7eb;
   margin-bottom: 0.2rem;
-  background: red;
+  background: rgb(10, 201, 10);
   z-index: 10; }
   .main-container .navbar-secondary h2 {
     font-size: 1.125rem;
-    color: #616161;
+    color: red;
     font-weight: 600;
     letter-spacing: -0.03rem; }
 
@@ -301,9 +311,11 @@ a {
   padding-right: 0.5rem; }
   .container .hero .highlight-text p {
     text-align: center;
-    margin: 0 auto; }
+    margin: 0 auto; 
+    line-height: 3rem;}
     .container .hero .highlight-text p a {
-      color: #2962ff; }
+      color: #2962ff; 
+      line-height: 3rem;}
 
 article {
   max-width: 800px;
@@ -314,7 +326,8 @@ article {
     border: 1px solid #e5e7eb;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 30px -20px;
     border-radius: 7px;
-    padding: 2rem; }
+    padding: 2rem; 
+    background-color: green;}
   article img {
     width: 8rem;
     height: 8rem;
@@ -322,16 +335,18 @@ article {
     border-radius: 7px;
     margin-right: 1.5rem; }
   article .bio h3 {
-    color: #333333;
+    color: red;
     font-weight: 600;
     max-width: 550px;
-    font-size: 1.25rem; }
+    font-size: 1rem; 
+    line-height: 3rem; }
   article .bio div {
     margin-top: 1rem; }
     article .bio div p {
       font-weight: 300;
-      color: #616161;
-      font-size: 1.08rem; }
+      color: red;
+      font-size: 1.08rem; 
+      line-height: 3rem; }
 
 .section-two {
   display: flex;
@@ -366,11 +381,12 @@ article {
         font-size: 1.5rem;
         color: #424242;
         font-weight: 600;
-        padding-bottom: 0.3rem;
-        line-height: 2rem; }
+        padding-bottom: 0.3rem; 
+        line-height: 3rem;  }
       .section-two .card-container-three .card div p {
         padding-bottom: 0.3rem;
-        color: #616161; }
+        color: #616161; 
+        line-height: 3rem;  }
 
 .features {
   display: flex;
@@ -397,10 +413,12 @@ article {
         font-weight: 600;
         color: #424242;
         line-height: 2rem;
-        padding: 1rem; }
+        padding: 1rem; 
+        line-height: 3rem;  }
       .features .card-container .card p {
         color: #616161;
-        letter-spacing: 0.01rem; }
+        letter-spacing: 0.01rem; 
+        line-height: 3rem;  }
 
 .trending {
   display: flex;
@@ -434,7 +452,8 @@ article {
           margin-bottom: 0.4rem; }
         .trending .card-container-three .card > div p {
           color: #616161;
-          letter-spacing: 0.2px; }
+          letter-spacing: 0.2px; 
+          line-height: 3rem;  }
 
 .testimonials {
   display: flex;
@@ -456,7 +475,8 @@ article {
         font-weight: 600;
         font-size: 1.1rem;
         color: #333333;
-        margin-bottom: 1rem; }
+        margin-bottom: 1rem; 
+        line-height: 3rem;  }
       .testimonials .card-container .card > div {
         display: flex;
         align-items: center; }
@@ -468,10 +488,12 @@ article {
           box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; }
         .testimonials .card-container .card > div h4 {
           font-size: 0.9rem;
-          color: #757575; }
+          color: #757575; 
+          line-height: 3rem;  }
         .testimonials .card-container .card > div p {
           color: #616161;
-          font-size: 0.9rem; }
+          font-size: 0.9rem; 
+          line-height: 3rem;}
 
 #footer {
   padding: 0 2.5rem; }
@@ -492,10 +514,12 @@ article {
           height: 35px; }
         #footer .footer-start div #logo a {
           font-size: 2rem;
-          color: #333333; }
+          color: #333333; 
+          line-height: 3rem; }
       #footer .footer-start div p {
         color: #616161;
-        max-width: 500px; }
+        max-width: 500px; 
+        line-height: 3rem;  }
     #footer .footer-start .footer-img {
       width: 25rem;
       transform: translateY(-1.5rem);
@@ -512,7 +536,8 @@ article {
         font-weight: 700;
         margin-bottom: 0.7rem;
         font-weight: 700;
-        padding: 0 1rem; }
+        padding: 0 1rem; 
+        line-height: 3rem;  }
       #footer .footer-center ul li {
         color: #424242; }
         #footer .footer-center ul li a {
@@ -520,7 +545,8 @@ article {
           padding: 0.25rem 1rem;
           color: #424242;
           font-weight: 500;
-          border-radius: 5px; }
+          border-radius: 5px; 
+          line-height: 3rem;}
           #footer .footer-center ul li a:hover {
             background: #f5f7fa; }
     #footer .footer-center .footer-button {
@@ -532,7 +558,8 @@ article {
           margin-right: 0.5rem; }
       #footer .footer-center .footer-button p {
         margin-top: 1rem;
-        font-size: 0.9rem; }
+        font-size: 0.9rem; 
+        line-height: 3rem;  }
   #footer .footer-end {
     display: flex;
     margin-bottom: 2.5rem; }
@@ -542,7 +569,8 @@ article {
       color: #424242;
       background: #f7f5f5;
       margin-right: 0.4rem;
-      border-radius: 5px; }
+      border-radius: 5px; 
+      line-height: 3rem; }
       #footer .footer-end a:hover {
         background: rgba(0, 0, 0, 0.1); }
 
@@ -554,7 +582,8 @@ article {
   font-size: 0.9rem; }
   .masthead a,
   .masthead p {
-    color: #616161; }
+    color: #616161; 
+    line-height: 3rem;  }
 
 @media (max-width: 1200px) {
   .testimonials .card-container {
@@ -595,7 +624,8 @@ article {
     padding: 1rem 2rem; }
     .container .hero .highlight-text p {
       margin-top: 0.5rem;
-      max-width: 500px; }
+      max-width: 500px; 
+      line-height: 3rem;  }
   .section-two .card-container-three .card {
     padding: 0;
     padding-bottom: 2rem; }
@@ -737,9 +767,11 @@ article {
     .features .card-container .card {
       padding: 1rem; }
       .features .card-container .card h3 {
-        font-size: 1.125rem; }
+        font-size: 1.125rem; 
+        line-height: 3rem;  }
       .features .card-container .card p {
-        display: none; } }
+        display: none; 
+        line-height: 3rem;  } }
 
 @media (max-width: 500px) {
   article .bio-container {
@@ -748,9 +780,11 @@ article {
     margin-bottom: 1.5rem;
     margin-right: 0; }
   article .bio h3 {
-    font-size: 1.125rem; }
+    font-size: 1.125rem; 
+    line-height: 3rem; }
   article .bio div p {
-    font-size: 0.9rem; }
+    font-size: 0.9rem; 
+    line-height: 3rem;  }
   .heading-two {
     font-size: 2rem; } }
 
@@ -761,11 +795,11 @@ article {
       width: 40px;
       height: 40px; }
     .features .card-container .card h3 {
-      font-size: 1rem; }
+      font-size: 1rem; 
+      line-height: 3rem;  }
     .features .card-container .card p {
-      display: none; } }
-
-
+      display: none; 
+      line-height: 3rem;  } }
 
       #TopPicture
       {
