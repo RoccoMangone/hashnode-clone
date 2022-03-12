@@ -51,26 +51,26 @@ section {
   .header-text h1 {
     max-width: 900px;
     margin: 0 auto 1rem; 
-    line-height: 3rem;}
+    line-height: 6rem;}
   .header-text p {
     font-size: 1.3rem;
     max-width: 400px;
     margin-bottom: 2rem;
     color: #757575; 
-    line-height: 3rem; }
+    line-height: 6rem; }
 
 .header-text-2 h2 {
   font-size: 2rem;
   color: #333333;
   font-weight: 600; 
-  line-height: 3rem; }
+  line-height: 6rem; }
 
 .header-text-2 p {
   color: #757575;
   font-size: 1.5rem;
   font-weight: 500;
   max-width: 600px; 
-  line-height: 3rem;}
+  line-height: 6rem;}
 
 #logo a {
   display: flex;
@@ -104,7 +104,7 @@ section {
     align-items: center;
     justify-content: center; }
     .card-container-one .card img {
-      width: 150px;
+      width: 200px;
       margin-bottom: 1rem; }
     .card-container-one .card h2 {
       font-size: 1.2rem;
@@ -128,39 +128,43 @@ section {
       margin-bottom: 0.6rem; 
       letter-spacing: .2;  }
     .card-container-two .card p {
-      line-height: 3rem;
+      line-height: 6rem;
       font-size: 1.125rem;
       letter-spacing: .2; }
   .card-container-two img {
     width: 100%;
     width: calc(100% + 40px); }
 
-@media (max-width: 1025px) {
   .header-text h1 {
     font-size: 2.25rem; 
-    line-height: 3rem;}
+    line-height: 6rem;}
   .card-container {
     grid-template-columns: repeat(1, 1fr); }
   .card-container-one {
     grid-template-columns: repeat(2, 1fr); }
-    .card-container-one .card img {
-      width: 140px; }
+    /* .card-container-one .card img {
+      width: 140px; } */
   .card-container-two {
     grid-template-columns: 1fr;
     grid-gap: 0; }
     .card-container-two img {
-      width: 350px; } }
+      width: 350px; } 
 
-@media (max-width: 900px) {
   .card-container-one {
     grid-template-columns: repeat(1, 1fr); }
   .card-container-two img {
     width: 100%; }
   section {
-    padding: 0 1.5rem; } }
+    padding: 0 1.5rem; } 
 
 .align-center {
   text-align: center; }
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
 
 * {
   margin: 0;
@@ -186,7 +190,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #212121; 
+  color: red; 
   line-height: 3rem; }
 
 #container {
@@ -199,8 +203,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: #f5f7fa;
-    border-right: 1px solid #e5e7eb;
+    background: green;
     padding: 1rem;
     height: 100vh; }
   #container .main-container {
@@ -278,7 +281,7 @@ a {
       height: 35px; }
 	  
 .topimage{
-	width: 500px;
+	width: 700px;
 	height: 500px;
 }
 .main-container .navbar-secondary {
@@ -315,10 +318,10 @@ a {
   .container .hero .highlight-text p {
     text-align: center;
     margin: 0 auto; 
-    line-height: 3rem;}
+    line-height: 6rem;}
     .container .hero .highlight-text p a {
       color: #2962ff; 
-      line-height: 3rem;}
+      line-height: 6rem;}
 
 article {
   max-width: 800px;
@@ -333,7 +336,7 @@ article {
     background-color: green;}
   article img {
     width: 8rem;
-    height: 8rem;
+    height: 3rem;
     border: 1px solid #e5e7eb;
     border-radius: 7px;
     margin-right: 1.5rem; }
@@ -342,14 +345,14 @@ article {
     font-weight: 600;
     max-width: 550px;
     font-size: 1rem; 
-    line-height: 3rem; }
+    line-height: 6rem; }
   article .bio div {
     margin-top: 1rem; }
     article .bio div p {
       font-weight: 300;
       color: red;
       font-size: 1.08rem; 
-      line-height: 3rem; }
+      line-height: 6rem; }
 
 .section-two {
   display: flex;
@@ -385,11 +388,11 @@ article {
         color: #424242;
         font-weight: 600;
         padding-bottom: 0.3rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
       .section-two .card-container-three .card div p {
         padding-bottom: 0.3rem;
         color: #616161; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
 
 .features {
   display: flex;
@@ -417,11 +420,11 @@ article {
         color: #424242;
         line-height: 2rem;
         padding: 1rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
       .features .card-container .card p {
         color: #616161;
         letter-spacing: 0.01rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
 
 .trending {
   display: flex;
@@ -436,7 +439,7 @@ article {
       align-items: flex-start;
       padding: 1.5rem; }
       .trending .card-container-three .card img {
-        width: 100px;
+        /* width: 100px; */
         border-radius: 50%;
         margin-right: 1rem; }
         .trending .card-container-three .card img:first-child {
@@ -456,7 +459,7 @@ article {
         .trending .card-container-three .card > div p {
           color: #616161;
           letter-spacing: 0.2px; 
-          line-height: 3rem;  }
+          line-height: 6rem;  }
 
 .testimonials {
   display: flex;
@@ -479,7 +482,7 @@ article {
         font-size: 1.1rem;
         color: #333333;
         margin-bottom: 1rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
       .testimonials .card-container .card > div {
         display: flex;
         align-items: center; }
@@ -492,11 +495,11 @@ article {
         .testimonials .card-container .card > div h4 {
           font-size: 0.9rem;
           color: #757575; 
-          line-height: 3rem;  }
+          line-height: 6rem;  }
         .testimonials .card-container .card > div p {
           color: #616161;
           font-size: 0.9rem; 
-          line-height: 3rem;}
+          line-height: 6rem;}
 
 #footer {
   padding: 0 2.5rem; }
@@ -518,11 +521,11 @@ article {
         #footer .footer-start div #logo a {
           font-size: 2rem;
           color: #333333; 
-          line-height: 3rem; }
+          line-height: 6rem; }
       #footer .footer-start div p {
         color: #616161;
         max-width: 500px; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
     #footer .footer-start .footer-img {
       width: 25rem;
       transform: translateY(-1.5rem);
@@ -540,7 +543,7 @@ article {
         margin-bottom: 0.7rem;
         font-weight: 700;
         padding: 0 1rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
       #footer .footer-center ul li {
         color: #424242; }
         #footer .footer-center ul li a {
@@ -549,7 +552,7 @@ article {
           color: #424242;
           font-weight: 500;
           border-radius: 5px; 
-          line-height: 3rem;}
+          line-height: 6rem;}
           #footer .footer-center ul li a:hover {
             background: #f5f7fa; }
     #footer .footer-center .footer-button {
@@ -562,7 +565,7 @@ article {
       #footer .footer-center .footer-button p {
         margin-top: 1rem;
         font-size: 0.9rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
   #footer .footer-end {
     display: flex;
     margin-bottom: 2.5rem; }
@@ -573,7 +576,7 @@ article {
       background: #f7f5f5;
       margin-right: 0.4rem;
       border-radius: 5px; 
-      line-height: 3rem; }
+      line-height: 6rem; }
       #footer .footer-end a:hover {
         background: rgba(0, 0, 0, 0.1); }
 
@@ -586,9 +589,9 @@ article {
   .masthead a,
   .masthead p {
     color: #616161; 
-    line-height: 3rem;  }
+    line-height: 6rem;  }
 
-@media (max-width: 1200px) {
+
   .testimonials .card-container {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem; }
@@ -600,9 +603,8 @@ article {
       justify-self: left;
       text-align: left; }
       #footer .footer-center .footer-button > div {
-        justify-content: flex-start; } }
+        justify-content: flex-start; }
 
-@media (max-width: 1025px) {
   #container {
     grid-template-columns: 2fr 6fr; }
     #container .left-container {
@@ -628,14 +630,14 @@ article {
     .container .hero .highlight-text p {
       margin-top: 0.5rem;
       max-width: 500px; 
-      line-height: 3rem;  }
+      line-height: 6rem;  }
   .section-two .card-container-three .card {
     padding: 0;
     padding-bottom: 2rem; }
     .section-two .card-container-three .card:nth-child(2) {
       border: none; }
     .section-two .card-container-three .card img {
-      width: calc(100% - 450px);
+      /* width: calc(100% - 450px); */
       margin-bottom: 1rem; }
   .features .card-container {
     grid-template-columns: repeat(2, 1fr); }
@@ -665,13 +667,13 @@ article {
         #footer .footer-center .footer-button > div {
           justify-content: flex-start; }
   .section-two .card-container-three .card img {
-    width: 200px;
+    /* width: 200px; */
     margin-bottom: 1rem; }
   .trending .card-container-three {
     grid-template-columns: 1fr; }
     .trending .card-container-three .card {
       flex-direction: column;
-      padding: 1rem 0.9rem; } }
+      padding: 1rem 0.9rem; } 
 
 @media (max-width: 770px) {
   #container {
@@ -718,7 +720,7 @@ article {
     left: -300%;
     top: 4.7rem;
     flex-direction: column;
-    width: calc(100% / 1.4);
+    /* width: calc(100% / 1.4); */
     text-align: left;
     transition: 0.3s;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
@@ -771,10 +773,10 @@ article {
       padding: 1rem; }
       .features .card-container .card h3 {
         font-size: 1.125rem; 
-        line-height: 3rem;  }
+        line-height: 6rem;  }
       .features .card-container .card p {
         display: none; 
-        line-height: 3rem;  } }
+        line-height: 6rem;  } }
 
 @media (max-width: 500px) {
   article .bio-container {
@@ -784,14 +786,13 @@ article {
     margin-right: 0; }
   article .bio h3 {
     font-size: 1.125rem; 
-    line-height: 3rem; }
+    line-height: 6rem; }
   article .bio div p {
     font-size: 0.9rem; 
-    line-height: 3rem;  }
+    line-height: 6rem;  }
   .heading-two {
     font-size: 2rem; } }
 
-@media (max-width: 400px) {
   .features .card-container {
     grid-template-columns: repeat(2, 1fr); }
     .features .card-container .card img {
@@ -799,15 +800,9 @@ article {
       height: 40px; }
     .features .card-container .card h3 {
       font-size: 1rem; 
-      line-height: 3rem;  }
+      line-height: 6rem;  }
     .features .card-container .card p {
       display: none; 
-      line-height: 3rem;  } }
+      line-height: 6rem;  } 
 
-      #TopPicture
-      {
-        max-width: 300%;
-        height: auto;
-      }
-      
       
