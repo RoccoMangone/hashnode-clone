@@ -180,6 +180,11 @@ a {
   text-decoration: none;
   color: #212121; }
 
+z {
+  color: red;
+  font-size: larger;
+}
+
 #container {
   display: grid;
   grid-template-columns: 1.06fr 6fr;
